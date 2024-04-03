@@ -1,4 +1,4 @@
 #!/bin/bash
-yum install -y httpd
-systemctl start httpd && systemctl enable httpd
-apt install -y httpd
+apt install -y apache2
+systemctl start apache2 && systemctl enable apache2
+
